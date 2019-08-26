@@ -18,6 +18,13 @@
         echo "<br>";
         echo "<br>";
 
+        // This is a do while, its a while loop, but backwards
+        // Runs the loop body first, so even though 6 is greater than 5, it runs once
+        $index = 6;
+        do {
+            echo "$index <br>";
+            $index++;
+        } while($index <= 5);
     ?>
 
 </body>
